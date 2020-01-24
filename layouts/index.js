@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ColumnBear from "../components/ColumnBear";
 
 const Inner = styled.div`
   position: absolute;
@@ -35,6 +36,7 @@ export const BearjamLayout = page => {
   return (
     <OuterOuter>
       <Outer>
+        <ColumnBear />
         <Inner>{page}</Inner>
       </Outer>
     </OuterOuter>
